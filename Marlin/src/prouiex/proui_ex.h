@@ -72,7 +72,7 @@ constexpr bool DEF_INVERT_E0_DIR = INVERT_E0_DIR;
 constexpr uint8_t DEF_GRID_MAX_POINTS_X = TERN(HAS_MESH, GRID_MAX_POINTS_X, 3);
 constexpr uint8_t DEF_GRID_MAX_POINTS_Y = TERN(HAS_MESH, GRID_MAX_POINTS_Y, 3);
 #define GRID_MIN 3
-#define GRID_LIMIT 9
+#define GRID_LIMIT 15
 #ifndef MESH_INSET
   #define MESH_INSET 25
 #endif
